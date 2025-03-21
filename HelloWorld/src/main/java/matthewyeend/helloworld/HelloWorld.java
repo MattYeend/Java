@@ -1,8 +1,8 @@
 /*
  * Author:  Matthew Yeend
  * Project: Hello World
- * Version: 1.1.1
- * Date:    ß21/03/2025
+ * Version: v1.1.1
+ * Date:    21/03/2025
  */
 
 package matthewyeend.helloworld;
