@@ -84,6 +84,12 @@ class VacuumAgent {
 public class SimpleAIAgent {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Environment environment = new Environment(5, 5);
+        VacuumAgent agent = new VacuumAgent(environment);
+        
+        for (int i = 0; i < 10; i++) {
+            environment.display();
+            agent.act();
+        }
     }
 }
