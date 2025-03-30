@@ -65,6 +65,22 @@ class Environment {
     }
 }
 
+class VacuumAgent {
+    private Environment env;
+    
+    public VacuumAgent(Environment env) {
+        this.env = env;
+    }
+    
+    public void act() {
+        if (env.isDirty()) {
+            env.clean();
+        } else {
+            env.move();
+        }
+    }
+}
+
 public class SimpleAIAgent {
 
     public static void main(String[] args) {
