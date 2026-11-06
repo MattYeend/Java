@@ -7,8 +7,8 @@
 
 package matthewyeend.multifile;
 
-import utils.Helper;
-import models.User;
+import matthewyeend.multifile.utils.Helper;
+import matthewyeend.multifile.models.User;
 
 /**
  *
